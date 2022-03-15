@@ -5,4 +5,4 @@
 터미널 이용
 node 파일명.js
 
-출처: [프리캠프](https://www.notion.so/Algorithm-da06494c08674bebb8826e9c40a41daf) , [프로그래머스](https://programmers.co.kr/learn/challenges)
+출처: [프리캠프](https://newbizstart.notion.site/Algorithm-693053b8e3c9416e8df9b574782a77fa) , [프로그래머스](https://programmers.co.kr/learn/challenges)
