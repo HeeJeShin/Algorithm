@@ -80,3 +80,15 @@ const divide = (num1, num2) => {
 
 // - 화살표 함수로 만들어야합니다.
 // - 함수와 입력데이터 이름은 자유롭게 지어도 됩니다.
+const validation = (password1, password2) => {
+  password1 = password1.toLowerCase();
+  password2 = password2.toLowerCase();
+
+  if (password1.length < 8 || password1.length > 16) {
+    console.log("비밀번호는 8~16 자리여야 합니다");
+  } else if (password1 !== password2) {
+    console.log("비밀번호를 다시 확인해주세요");
+  } else {
+    console.log("회원가입을 축하합니다");
+  }
+};
